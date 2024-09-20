@@ -2,8 +2,10 @@
 
 A simple and sleek notes app to help you study effectively.
 
-![App Screenshot 1](IMG_1297.PNG)  
-![App Screenshot 2](IMG_1298.PNG)  
+<div style="display: flex; gap: 10px;">
+    <img src="IMG_1297.PNG" alt="App Screenshot 1" style="width: 48%; border-radius: 8px;">
+    <img src="IMG_1298.PNG" alt="App Screenshot 2" style="width: 48%; border-radius: 8px;">
+</div>
 
 ## Features
 
