@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <title>Notes</title>
+  <meta name="description" content="A simple and sleek notes app to help you study.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="logo.png">
+  <meta name="theme-color" content="#f4e76c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <div class="note-card content-section active-content" id="notes-section">
+    <div class="note-header"></div>
+    <div class="note-content">
+      <p id="note-display">Your note will appear here.</p>
+    </div>
+    <div class="note-nav">
+      <button id="prev-btn">Previous</button>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <div class="list-card content-section" id="list-section">
+    <textarea class="list-textarea" id="note-input" placeholder="Type or paste your text here..."></textarea>
+  </div>
+
+  <nav class="bottom-nav">
+    <button class="nav-btn active" data-target="notes-section">
+      <img src="sticky.png" alt="Notes" />
+    </button>
+    <button class="nav-btn" data-target="list-section">
+      <img src="edit.png" alt="List" />
+    </button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

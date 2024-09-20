@@ -1,0 +1,23 @@
+{
+    "name": "Notes",
+    "short_name": "Notes",
+    "start_url": "index.html",
+    "background_color": "#f4e76c",
+    "theme_color": "#f4e76c",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "display": "standalone",
+    "orientation":"portrait"
+}
